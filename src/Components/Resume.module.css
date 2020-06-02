@@ -1,0 +1,25 @@
+.resumeRightCol {
+	background: #27221f;
+	color: white;
+	padding: 2em;
+}
+.resumeGrid img {
+	height: 200px;
+	border-radius: 50%;
+}
+.download {
+	text-decoration: none;
+	border: 1px solid grey;
+	color: white;
+	padding: 10px;
+	background-color: #833fb2;
+}
+@media (max-width: 500px) {
+	.resumeRightCol {
+		margin-top: 40px !important;
+	}
+	.download {
+		margin-left: 25%;
+		text-align: center;
+	}
+}

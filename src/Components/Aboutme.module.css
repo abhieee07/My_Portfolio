@@ -1,0 +1,54 @@
+.aboutGrid {
+	margin-left: 100px !important;
+	margin-top: 60px !important;
+	background: #27221f;
+	color: white;
+	max-width: 85%;
+	height: 500px;
+	/* border: 2px solid #e22947; */
+	text-align: center;
+}
+.aboutGrid h1 {
+	font-family: 'Cormorant Garamond', serif;
+}
+.aboutGrid p {
+	font-size: 20px;
+	font-family: 'Cormorant Garamond', serif;
+	text-align: justify;
+	letter-spacing: 0.5px;
+	margin: 10px;
+	max-width: 100%;
+}
+.imageCol {
+	height: 160px;
+	margin-top: 9em;
+	margin-left: 2em;
+	border-radius: 50%;
+}
+.hrtag {
+	border-top: 3px solid #e22947;
+	width: 440px;
+	margin-left: 260px;
+}
+@media (max-width: 600px) {
+	.aboutGrid {
+		margin: 0px !important;
+		margin-top: 0 !important;
+		height: 100%;
+		max-width: 100%;
+	}
+	.aboutGrid p {
+		font-size: 15px;
+		padding-right: 2px;
+	}
+	.imageCol {
+		height: 100px;
+		margin-left: 4rem;
+		margin-top: auto;
+	}
+	.hrtag {
+		border-top: 3px solid #e22947;
+		width: 200px;
+		margin-left: 70px;
+	}
+}
