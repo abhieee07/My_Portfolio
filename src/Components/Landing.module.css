@@ -67,3 +67,34 @@
 	font-size: 4em;
 	padding: 8px;
 }
+@media (max-width: 500px) {
+	.banner {
+		width: 103% !important;
+		margin: -13px;
+		margin-top: 2em;
+	}
+	.banner h1 {
+		font-size: 41px;
+		font-weight: bold;
+		color: white;
+	}
+	.banner h4 {
+		font-size: 18px;
+		font-weight: bold;
+		color: white;
+	}
+	.banner p {
+		color: white;
+		font-size: 14px;
+		padding: 10px;
+	}
+	.image {
+		height: 150px;
+		margin-top: 8em;
+	}
+	.socialLinks i {
+		color: white;
+		font-size: 3em;
+		padding: 8px;
+	}
+}

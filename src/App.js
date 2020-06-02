@@ -21,12 +21,12 @@ function App() {
             <NavLink to="/Contact" activeClassName={classes.active}>Contact</NavLink>
           </Navigation>
         </Header>
-        <Drawer title={<NavLink style={{ color: "black", textDecoration: "none" }} to="/">My Portfolio</NavLink>}>
+        <Drawer className="bar" title={<NavLink style={{ color: "black", textDecoration: "none" }} to="/">My Portfolio</NavLink>}>
           <Navigation>
             <NavLink to="/AboutMe" onClick={hideModal}>AboutMe</NavLink>
-            <NavLink to="/Contact" onClick={hideModal}>Contact</NavLink>
             <NavLink to="/Resume" onClick={hideModal}>Resume</NavLink>
             <NavLink to="/Projects" onClick={hideModal}>Projects</NavLink>
+            <NavLink to="/Contact" onClick={hideModal}>Contact</NavLink>
           </Navigation>
         </Drawer>
         <Content>
