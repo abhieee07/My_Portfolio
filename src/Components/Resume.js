@@ -5,7 +5,7 @@ import Image from '../Assets/image.jpg'
 import Education from './Education'
 import Experience from './Experience'
 import Skills from './Skills'
-import Doc from "../Assets/ST ALOYSIUS COLLEGE.docx"
+import Doc from "../Assets/React resume.pdf"
 
 
 const Resume = () => {
