@@ -28,7 +28,7 @@ export class Projects extends Component {
                         </CardText>
                         <CardActions border style={{ display: "flex", justifyContent: "center" }}>
                             <Button href="https://github.com/abhieee07/Burger-App" target="_blank" colored>GitHub</Button>
-                            <Button href="https://react-my-burger-a5bda.firebaseapp.com/" target="_blank" colored>Live Demo</Button>
+                            <Button href="https://laughing-cray-6c5b8a.netlify.app/" target="_blank" colored>Live Demo</Button>
                         </CardActions>
                         {/* <CardMenu style={{ color: '#fff' }}>
                             <IconButton name="share" />
