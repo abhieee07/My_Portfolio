@@ -35,11 +35,11 @@
 	height: 250px;
 }
 .ContactList i {
-	font-size: 66px;
-	padding-right: 5rem;
+	font-size: 60px;
+	padding-right: 2rem;
 }
 .listContent {
-	font-size: 30px;
+	font-size: 28px;
 	font-family: 'Anton';
 }
 @media (max-width: 550px) {

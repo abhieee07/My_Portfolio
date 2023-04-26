@@ -1,10 +1,14 @@
+.full{
+	height: 100%;
+	width: 100%;
+}
 .aboutGrid {
 	margin-left: 100px !important;
 	margin-top: 60px !important;
-	background: #27221f;
-	color: white;
+	color: black;
 	max-width: 85%;
 	height: 500px;
+	background: #d6d6f3;
 	/* border: 2px solid #e22947; */
 	text-align: center;
 }
@@ -26,9 +30,9 @@
 	border-radius: 50%;
 }
 .hrtag {
-	border-top: 3px solid #e22947;
-	width: 440px;
-	margin-left: 260px;
+	/* border-top: 3px solid #0d2ee7; */
+	/* width: 440px; */
+	/* margin-left: 260px; */
 }
 @media (max-width: 600px) {
 	.aboutGrid {
@@ -47,7 +51,6 @@
 		margin-top: auto;
 	}
 	.hrtag {
-		border-top: 3px solid #e22947;
 		width: 200px;
 		margin-left: 70px;
 	}
