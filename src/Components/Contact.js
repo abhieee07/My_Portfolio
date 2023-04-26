@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./Contact.module.css";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
-import Image from "../Assets/abhijith.jpg";
 
 const Contact = () => {
   return (
